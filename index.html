@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Gabriel Barreto da Silva, estudante de programação com foco em C#, .NET e React.">
+    <meta name="author" content="Gabriel Barreto da Silva">
+    <title>Gabriel Barreto | Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegação principal">
+            <a class="logo" href="#inicio" aria-label="Ir para o início">
+                <span class="logo-symbol">&gt;_</span>
+                gabriel
+            </a>
+
+            <button class="menu-button" type="button" aria-label="Abrir menu"
+                    aria-expanded="false" aria-controls="nav-links">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#stack">Stack</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#estudos">Estudos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="inicio">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <p class="eyebrow">Olá, mundo! Eu sou</p>
+                    <h1>Gabriel Barreto<br>da Silva.</h1>
+
+                    <p class="hero-role">
+                        <span class="terminal-prompt">$</span>
+                        <span id="typing-text">estudante de programação</span>
+                        <span class="cursor" aria-hidden="true">|</span>
+                    </p>
+
+                    <p class="hero-description">
+                        Tenho 14 anos e estudo desenvolvimento de software com foco em
+                        <strong>C# e .NET</strong> no backend e <strong>React</strong> no frontend.
+                        Gosto de entender como as coisas funcionam e transformar o que aprendo
+                        em projetos reais.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projetos">Ver projetos</a>
+                        <a class="button button-secondary"
+                           href="https://github.com/Bield-04"
+                           target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="terminal reveal" aria-label="Resumo sobre Gabriel">
+                    <div class="terminal-header">
+                        <div class="terminal-dots" aria-hidden="true">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <p>gabriel@portfolio:~</p>
+                    </div>
+
+                    <div class="terminal-body">
+                        <p><span class="terminal-command">$ whoami</span></p>
+                        <p>Gabriel Barreto da Silva</p>
+
+                        <p><span class="terminal-command">$ cat focus.txt</span></p>
+                        <p>C# / .NET / React</p>
+
+                        <p><span class="terminal-command">$ uname -s</span></p>
+                        <p>Linux</p>
+
+                        <p><span class="terminal-command">$ echo $EDITOR</span></p>
+                        <p>Neovim</p>
+
+                        <p><span class="terminal-command">$ status</span></p>
+                        <p class="terminal-success">aprendendo e construindo_</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="sobre">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-number">01.</p>
+                    <h2>Sobre mim</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>
+                            Sou estudante de programação e estou construindo minha base como
+                            desenvolvedor. Meu objetivo não é apenas fazer o código funcionar:
+                            quero entender <strong>por que ele funciona</strong>, quais decisões
+                            foram tomadas e como posso melhorar cada projeto.
+                        </p>
+
+                        <p>
+                            Atualmente estudo desenvolvimento backend com C# e .NET,
+                            desenvolvimento frontend com React, versionamento com Git e GitHub
+                            e uso de Docker para ambientes de desenvolvimento.
+                        </p>
+
+                        <p>
+                            Também gosto de Linux, automação e de personalizar meu ambiente
+                            de desenvolvimento.
+                        </p>
+                    </div>
+
+                    <div class="about-card reveal">
+                        <div class="about-item">
+                            <span>Nome</span>
+                            <strong>Gabriel Barreto da Silva</strong>
+                        </div>
+                        <div class="about-item">
+                            <span>Idade</span>
+                            <strong>14 anos</strong>
+                        </div>
+                        <div class="about-item">
+                            <span>Foco</span>
+                            <strong>Desenvolvimento Full Stack</strong>
+                        </div>
+                        <div class="about-item">
+                            <span>Ambiente</span>
+                            <strong>Linux + Neovim</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="stack">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-number">02.</p>
+                    <h2>Minha stack</h2>
+                </div>
+
+                <p class="section-intro reveal">
+                    Tecnologias que estudo ou utilizo nos meus projetos.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <p class="skill-icon">{ }</p>
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>C#</li>
+                            <li>.NET</li>
+                            <li>ASP.NET Core</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <p class="skill-icon">&lt;/&gt;</p>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <p class="skill-icon">git</p>
+                        <h3>Ferramentas</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Docker</li>
+                            <li>Neovim</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <p class="skill-icon">$_</p>
+                        <h3>Sistema</h3>
+                        <ul>
+                            <li>Linux</li>
+                            <li>Bash</li>
+                            <li>Terminal</li>
+                            <li>CLI</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projetos">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-number">03.</p>
+                    <h2>Projetos</h2>
+                </div>
+
+                <p class="section-intro reveal">
+                    Alguns projetos publicados no meu GitHub.
+                </p>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">01</span>
+                            <a href="https://github.com/Bield-04/Landing-Page.-Design"
+                               target="_blank" rel="noopener noreferrer">↗</a>
+                        </div>
+                        <h3>Landing Page Design</h3>
+                        <p>
+                            Landing page responsiva para uma agência de design com formulário
+                            integrado a uma API backend.
+                        </p>
+                        <ul class="project-tech">
+                            <li>HTML</li><li>CSS</li><li>FastAPI</li><li>SQLite</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Bield-04/Landing-Page.-Design"
+                               target="_blank" rel="noopener noreferrer">Código</a>
+                            <a href="https://1landingpagedesign.netlify.app/"
+                               target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">02</span>
+                            <a href="https://github.com/Bield-04/Setup-de-jogosV2"
+                               target="_blank" rel="noopener noreferrer">↗</a>
+                        </div>
+                        <h3>Setup de Jogos V2</h3>
+                        <p>
+                            Script CLI em Bash para automatizar a instalação de ferramentas
+                            de jogos e desenvolvimento em sistemas baseados em Arch.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Bash</li><li>Linux</li><li>CLI</li><li>Git</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Bield-04/Setup-de-jogosV2"
+                               target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">03</span>
+                            <a href="https://github.com/Bield-04/Registrador-de-Carro"
+                               target="_blank" rel="noopener noreferrer">↗</a>
+                        </div>
+                        <h3>Registrador de Carro</h3>
+                        <p>
+                            Projeto web publicado para praticar construção de interfaces
+                            e organização de uma aplicação.
+                        </p>
+                        <ul class="project-tech">
+                            <li>HTML</li><li>Web</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Bield-04/Registrador-de-Carro"
+                               target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">04</span>
+                            <a href="https://github.com/Bield-04/xfce-unix-rice"
+                               target="_blank" rel="noopener noreferrer">↗</a>
+                        </div>
+                        <h3>XFCE Unix Rice</h3>
+                        <p>
+                            Minha personalização monocromática do XFCE com estética inspirada
+                            em workstations Unix.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Linux</li><li>XFCE</li><li>Shell</li><li>Dotfiles</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Bield-04/xfce-unix-rice"
+                               target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-more reveal">
+                    <a class="button button-secondary"
+                       href="https://github.com/Bield-04?tab=repositories"
+                       target="_blank" rel="noopener noreferrer">
+                        Ver todos no GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="estudos">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-number">04.</p>
+                    <h2>O que estou estudando</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item reveal">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-label">Backend</p>
+                        <h3>C# + .NET</h3>
+                        <p>
+                            Lógica, orientação a objetos, bibliotecas da linguagem e
+                            desenvolvimento de APIs com ASP.NET Core.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-label">Frontend</p>
+                        <h3>React</h3>
+                        <p>
+                            Interfaces web, componentes, estado, consumo de APIs e construção
+                            de aplicações frontend.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-label">Dev Tools</p>
+                        <h3>Git, GitHub e Docker</h3>
+                        <p>
+                            Versionamento de projetos, fluxo de trabalho com repositórios e
+                            ambientes de desenvolvimento reproduzíveis.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contato">
+            <div class="container contact-container reveal">
+                <p class="section-number">05.</p>
+                <h2>Vamos conversar?</h2>
+                <p>
+                    Quer acompanhar meus estudos ou ver o que estou construindo?
+                    Meu GitHub é o melhor lugar para isso.
+                </p>
+
+                <div class="contact-links">
+                    <a class="button button-primary"
+                       href="https://github.com/Bield-04"
+                       target="_blank" rel="noopener noreferrer">
+                        github.com/Bield-04
+                    </a>
+
+                    <a class="button button-secondary"
+                       href="https://youtube.com/@bield_04"
+                       target="_blank" rel="noopener noreferrer">
+                        YouTube
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>Feito por <strong>Gabriel Barreto da Silva</strong>.</p>
+            <p><span id="current-year"></span> · construindo, estudando e evoluindo.</p>
+        </div>
+    </footer>
+</body>
+</html>
